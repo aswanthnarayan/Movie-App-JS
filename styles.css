@@ -114,3 +114,11 @@ main{
 .movie:hover .overview{
     transform:translateY(0)
 }
+
+@media screen and (max-width: 450px) {
+    .search {
+      width: 90%;
+      max-width: 300px;
+      margin-bottom: 1rem;
+    }
+  }
